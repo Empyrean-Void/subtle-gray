@@ -17,7 +17,7 @@ function M.colorscheme()
     vim.cmd("hi clear")
     if vim.fn.exists("syntax_on") then vim.cmd("syntax reset") end
     vim.o.termguicolors = true
-    vim.g.colors_name = "onedark"
+    vim.g.colors_name = "subtle-gray"
     if vim.o.background == 'light' then
         M.set_options('style', 'light')
     elseif vim.g.onedark_config.style == 'light' then
