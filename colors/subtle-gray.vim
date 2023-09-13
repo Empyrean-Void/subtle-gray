@@ -2,7 +2,7 @@
 -- Run :Lushify
 -- then /Normal to find the Normal group and edit your fg & bg colors
 
-let g:colors_name="subtle-gray"
+let g:colors_name="subtle_gray"
 
 local lush = require("lush")
 local hsl = lush.hsl
